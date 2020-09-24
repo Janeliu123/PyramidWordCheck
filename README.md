@@ -22,8 +22,8 @@ mvn spring-boot:run
 http://localhost:8080/check/checkPyramid?str={...}
 (fill the string that you want to check in {...})
 4. Then you will get the result in your brower:
-"...: is Pyramid!!!" or
-"...: is not Pyramid!!!"
+"{...}: is Pyramid!!!" or
+"{...}: is not Pyramid!!!"
 
 Author
 -----------------------------------------------------
