@@ -18,18 +18,20 @@ Install and Use
 -----------------------------------------------------
 1. Input command in your terminal:
 git clone https://github.com/Janeliu123/PyramidWordCheck.git
+
 2. Then enter PyramidWordCheck dir: cd PyramidWordCheck
+
 3. start: mvn spring-boot:run
+
 4. Use this URL in your browser:
 
-http://localhost:8080/check/checkPyramid?str={...}
+   http://localhost:8080/check/checkPyramid?str={...} (fill the string that you want to check in {...})
 
-(fill the string that you want to check in {...})
 5. Then you will get the result in your brower:
 
-"{...}: is Pyramid!!!" or
+    "{...}: is Pyramid!!!" or
 
-"{...}: is not Pyramid!!!"
+    "{...}: is not Pyramid!!!"
 
 Author
 -----------------------------------------------------
