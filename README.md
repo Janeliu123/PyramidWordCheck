@@ -1,6 +1,6 @@
 Description
 -----------------------------------------------------
-Accept a string as input and return a response indicating whether a word is a pyramid word. A word is a pyramid word if you can arrange the letters in increasing frequency, starting with 1 and continuing without gaps and without duplicates.
+Accept a string as input and return a response indicating whether a word is a pyramid word. A word is a pyramid word if you can arrange the letters in increasing frequency, starting with 1 and continuing without gaps and without duplicates. 
 
 Examples
 
@@ -16,7 +16,7 @@ Implementaton
 
 Function
 -----------------------------------------------------
-This web service just can identify the letter, if there is signs or numbers in the string you checked, then it is not a Pyramid word. And if there is Uppercase letter, it will be recongnized to lowercase letter automatically.
+This web service just can identify the letter, if there is signs or numbers in the string you checked, then it is not a Pyramid word. And if there is Uppercase letter, it will be recongnized to lowercase letter automatically. If you do not input any letter in url, then this service will notice you "The String is null, Please input valid string!!!"
 
 Install and Use
 -----------------------------------------------------
