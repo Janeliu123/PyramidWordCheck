@@ -14,6 +14,10 @@ Implementaton
 - Maven
 - REST API
 
+Function
+-----------------------------------------------------
+This web service just can identify the letter, if there is signs or numbers in the string you checked, then it is not a Pyramid word. And if there is Uppercase letter, it will be recongnized to lowercase letter automatically.
+
 Install and Use
 -----------------------------------------------------
 1. Input command in your terminal:
