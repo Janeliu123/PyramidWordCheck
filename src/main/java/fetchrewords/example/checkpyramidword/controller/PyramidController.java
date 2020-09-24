@@ -7,6 +7,8 @@ import java.util.Arrays;
 public class PyramidController {
     @GetMapping("/checkPyramid")
     public ResponseEntity<String> checkPyramid(@RequestParam(value = "str") String str){
+        if(str.length() == 0)
+            return ResponseEntity.ok("The String is null, Please input valid string!!!");
         str = str.toLowerCase();
         int[] letter = new int[26];
         for(int i=0; i<str.length();i++) {
